@@ -129,11 +129,13 @@ overriding it.
 
 ## Workflow for common changes
 
-- **Add a skill**: pick the right bucket, scaffold via `write-a-skill`, then (if the
-  bucket is indexed) add entries to `plugin.json`, the bucket `README.md`, and the
-  top-level `README.md` in the same change.
-- **Deprecate a skill**: move the directory to `skills/deprecated/`, remove its entries
-  from `plugin.json` and the top-level `README.md`, add it to
+- **Add a skill**: pick the right bucket, scaffold via `write-a-skill`, then add an
+  entry to the bucket's own `README.md`, and — if the bucket is indexed (`engineering/`,
+  `productivity/`, `misc/`) — also add entries to `plugin.json` and the top-level
+  `README.md`, all in the same change.
+- **Deprecate a skill**: move the directory to `skills/deprecated/`, remove its entry
+  from the *source* bucket's `README.md` (and, if the source bucket was indexed, from
+  `plugin.json` and the top-level `README.md` too), then add it to
   `skills/deprecated/README.md`.
 - **Edit an existing skill**: just edit `SKILL.md` / its reference files; no index
   changes needed unless the name or bucket changes.
