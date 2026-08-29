@@ -25,6 +25,7 @@ skills/
   engineering/          daily code work — indexed, in the plugin
   productivity/         daily non-code workflow tools — indexed, in the plugin
   misc/                 kept around but rarely used — indexed, in the plugin
+  creative/             design, visual, and media work — indexed, in the plugin
   personal/             tied to the maintainer's own setup — NOT indexed, NOT in the plugin
   in-progress/          drafts not yet ready to ship — NOT indexed, NOT in the plugin
   deprecated/           no longer used — NOT indexed, NOT in the plugin, excluded from link-skills.sh
@@ -38,7 +39,7 @@ that bucket with a one-line description.
 This is the load-bearing convention of the repo — keep these in sync whenever a skill
 is added, renamed, removed, or moved between buckets:
 
-- Every skill in `engineering/`, `productivity/`, or `misc/` **must** have:
+- Every skill in `engineering/`, `productivity/`, `misc/`, or `creative/` **must** have:
   - an entry in `.claude-plugin/plugin.json` (`./skills/<bucket>/<name>`)
   - a linked entry in the top-level `README.md` under its bucket's "Reference" section
   - a linked entry in its bucket's own `README.md`
@@ -131,7 +132,7 @@ overriding it.
 
 - **Add a skill**: pick the right bucket, scaffold via `write-a-skill`, then add an
   entry to the bucket's own `README.md`, and — if the bucket is indexed (`engineering/`,
-  `productivity/`, `misc/`) — also add entries to `plugin.json` and the top-level
+  `productivity/`, `misc/`, `creative/`) — also add entries to `plugin.json` and the top-level
   `README.md`, all in the same change.
 - **Deprecate a skill**: move the directory to `skills/deprecated/`, remove its entry
   from the *source* bucket's `README.md` (and, if the source bucket was indexed, from

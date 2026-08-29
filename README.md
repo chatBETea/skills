@@ -175,3 +175,9 @@ Tools I keep around but rarely use.
 - **[scaffold-exercises](./skills/misc/scaffold-exercises/SKILL.md)** — Create exercise directory structures with sections, problems, solutions, and explainers.
 - **[setup-pre-commit](./skills/misc/setup-pre-commit/SKILL.md)** — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests.
 - **[suspicious-content-triage](./skills/misc/suspicious-content-triage/SKILL.md)** — Defensively triage a suspicious URL, email/message, or file for phishing, scam, or malware indicators through static analysis, without executing or submitting it anywhere.
+
+### Creative
+
+Skills for design, visual, and media work.
+
+- **[web-design-review](./skills/creative/web-design-review/SKILL.md)** — Review UI code against current web interface design guidelines — accessibility, interaction, layout, typography — fetched fresh from the source on every run.
