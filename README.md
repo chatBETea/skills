@@ -174,3 +174,4 @@ Tools I keep around but rarely use.
 - **[migrate-to-shoehorn](./skills/misc/migrate-to-shoehorn/SKILL.md)** — Migrate test files from `as` type assertions to @total-typescript/shoehorn.
 - **[scaffold-exercises](./skills/misc/scaffold-exercises/SKILL.md)** — Create exercise directory structures with sections, problems, solutions, and explainers.
 - **[setup-pre-commit](./skills/misc/setup-pre-commit/SKILL.md)** — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests.
+- **[suspicious-content-triage](./skills/misc/suspicious-content-triage/SKILL.md)** — Defensively triage a suspicious URL, email/message, or file for phishing, scam, or malware indicators through static analysis, without executing or submitting it anywhere.
