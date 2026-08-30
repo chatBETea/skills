@@ -16,6 +16,7 @@
     "./skills/productivity/handoff",
     "./skills/productivity/write-a-skill",
     "./skills/misc/suspicious-content-triage",
-    "./skills/creative/web-design-review"
+    "./skills/creative/web-design-review",
+    "./skills/enterprise/crm-pipeline-hygiene"
   ]
 }

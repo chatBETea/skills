@@ -181,3 +181,10 @@ Tools I keep around but rarely use.
 Skills for design, visual, and media work.
 
 - **[web-design-review](./skills/creative/web-design-review/SKILL.md)** — Review UI code against current web interface design guidelines — accessibility, interaction, layout, typography — fetched fresh from the source on every run.
+
+### Enterprise
+
+Skills for business-infrastructure work — CRM, B2B/B2C pipeline operations, and
+related back-office workflows.
+
+- **[crm-pipeline-hygiene](./skills/enterprise/crm-pipeline-hygiene/SKILL.md)** — Audit a CRM export for duplicates, stale deals, missing required fields, inconsistent stage naming, and orphaned owners.
