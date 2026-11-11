@@ -26,7 +26,10 @@ reviews what already exists.
      logic, or does something float in a different space than the rest?
    - **Value structure** — squint-test it (or reason in grayscale terms): is there
      a clear light/dark read that establishes a focal point, or is everything
-     mid-value and equally weighted?
+     mid-value and equally weighted? Separately, do all elements share one
+     consistent light-source direction, or does something's shadow fall the wrong
+     way for the rest of the scene — a mismatched shadow direction is one of the
+     fastest tells that a piece was assembled in pieces rather than lit as one.
    - **Composition** — where does the eye enter and travel? Is there one clear
      focal point, or is attention split with no hierarchy?
    - **Color harmony** — do the colors share a coherent temperature/saturation
