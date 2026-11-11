@@ -150,3 +150,12 @@ overriding it.
 There is no lint/build/test step to run after changes — verification is manual: check
 that the three index locations agree with the contents of `skills/`, and that any new
 or edited `SKILL.md` follows the frontmatter and structure conventions above.
+
+## Test log
+
+`docs/TEST_LOG.md` records manual verification results — structural indexing passes
+and functional dry-runs against constructed test cases for individual skills. After
+testing a skill (new or edited), add an entry: date, skill, method used, what was
+found, and the fixing commit if there was one. Record a clean pass too, not just
+fixes — the log's job is to distinguish "verified, found nothing" from "never
+tested," not just to track bugs.
