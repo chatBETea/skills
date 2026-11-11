@@ -174,3 +174,25 @@ Tools I keep around but rarely use.
 - **[migrate-to-shoehorn](./skills/misc/migrate-to-shoehorn/SKILL.md)** — Migrate test files from `as` type assertions to @total-typescript/shoehorn.
 - **[scaffold-exercises](./skills/misc/scaffold-exercises/SKILL.md)** — Create exercise directory structures with sections, problems, solutions, and explainers.
 - **[setup-pre-commit](./skills/misc/setup-pre-commit/SKILL.md)** — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests.
+- **[suspicious-content-triage](./skills/misc/suspicious-content-triage/SKILL.md)** — Defensively triage a suspicious URL, email/message, or file for phishing, scam, or malware indicators through static analysis, without executing or submitting it anywhere.
+
+### Creative
+
+Skills for design, visual, and media work.
+
+- **[web-design-review](./skills/creative/web-design-review/SKILL.md)** — Review UI code against current web interface design guidelines — accessibility, interaction, layout, typography — fetched fresh from the source on every run.
+- **[video-production](./skills/creative/video-production/SKILL.md)** — Reference for film/TV and video production craft — shot types and camera movement, three-point lighting, audio recording, the standard post-production workflow, color correction/grading order, and platform delivery specs.
+- **[illustration-critique](./skills/creative/illustration-critique/SKILL.md)** — Critique a piece of illustration, character design, or concept art against proportion, perspective, value structure, composition, and color harmony, with specific, actionable fixes.
+
+### Enterprise
+
+Skills for business-infrastructure work — CRM, B2B/B2C pipeline operations, and
+related back-office workflows.
+
+- **[crm-pipeline-hygiene](./skills/enterprise/crm-pipeline-hygiene/SKILL.md)** — Audit a CRM export for duplicates, stale deals, missing required fields, inconsistent stage naming, and orphaned owners.
+
+### Education
+
+Skills for teaching and instructional work.
+
+- **[formative-check-builder](./skills/education/formative-check-builder/SKILL.md)** — Build a short formative/diagnostic check where every wrong answer maps to a real, identifiable misunderstanding, plus an instructor guide naming what each reveals and what to do next.

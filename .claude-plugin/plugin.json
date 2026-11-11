@@ -14,6 +14,12 @@
     "./skills/productivity/caveman",
     "./skills/productivity/grill-me",
     "./skills/productivity/handoff",
-    "./skills/productivity/write-a-skill"
+    "./skills/productivity/write-a-skill",
+    "./skills/misc/suspicious-content-triage",
+    "./skills/creative/web-design-review",
+    "./skills/creative/video-production",
+    "./skills/creative/illustration-critique",
+    "./skills/enterprise/crm-pipeline-hygiene",
+    "./skills/education/formative-check-builder"
   ]
 }
