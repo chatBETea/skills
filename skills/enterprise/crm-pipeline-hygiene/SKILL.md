@@ -15,7 +15,9 @@ auto-merge silently destroys history that's expensive to reconstruct.
 1. **Get the export.** Ask for the file (CSV/XLSX) if not provided, and which CRM it
    came from — field names differ (HubSpot's `Deal Stage` vs Salesforce's
    `StageName` vs Pipedrive's `stage_id`), and getting this wrong produces false
-   positives.
+   positives. For an export from something else, or a generic/already-normalized
+   CSV, use the column headers as given rather than guessing a mapping to one of
+   the three above.
 2. **Run the checks** (skip any that don't apply to the given object type):
    - **Duplicates** — same email, phone, or company domain across multiple contact
      rows. Report matched groups, not a silent auto-merge.
